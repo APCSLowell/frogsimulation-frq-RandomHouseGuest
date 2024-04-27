@@ -29,11 +29,11 @@ public class FrogSimulation
 	{ 
 		int count = 0;
 		for(int i = 0; i < num; i++){
-			if(hopsValue[i].simulate()){
+			if(simulate()){
 				count++;
 			}
 		}
-		return num;
+		return count/num;
 	}
 	
 	
